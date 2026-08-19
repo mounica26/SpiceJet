@@ -7,10 +7,6 @@ import { HomePage } from "../pages/HomePage"
 test("Search Flight",async({page})=>
 {
 
-    //let browser = await chromium.launch({headless:false})
-    // page = await browser.newPage()
-    //await page.goto("https://spicejet.com/")
-    //await page.pause();
 const homePage = new HomePage(page)
 await homePage.navigate()
 
